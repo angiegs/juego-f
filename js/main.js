@@ -124,7 +124,7 @@ var piezaCorrecta=0;
              
              
              
-             $(".fondoRmp").append("<div id='fs"+(i+1)+"' class='col-sm-4 fondoPz'></div>");
+             $(".fondoRmp").append("<div id='fs"+(i+1)+"' class='col-sm-6 fondoPz'></div>");
              
              
              //que reciban el tablero
