@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jugar</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="/img/icono.png">
+</head>
+<body onload="recibir()" id="fondoRompecabezas">
+    <div class="container">
+    
+    <div id="informacion">
+        <h1 id="titulo"></h1>
+         <h4>Puntos:</h4>
+         <p id="puntaje"></p>
+         <h4>Intentos:</h4>
+         <p id="intentos"></p>
+        
+        
+        <div id="botones">
+            
+            <a href="../index.php"><img src="../img/inicio.png" id="recargar"></a>
+            
+               
+            <a href="javascript:location.reload()"><img src="../img/recargar.png" id="recargar"></a>
+            
+    <a href=listarRompecabezas.html><img src="../img/regresar.png" id="regresar"></a>
+            
+                     
+        </div>
+        </div>    
+
+        
+    <div id="tablero" class="row">
+        
+                <div class="fondoRmp row"></div>
+                 
+        
+                <div class="col-sm-4 col-xs-4 piezas row"></div>
+        
+        </div>
+    </div>
+    <div id="audioDiv">    
+    </div>
+    
+     
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"> </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+    
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    
+</body>
+</html>
